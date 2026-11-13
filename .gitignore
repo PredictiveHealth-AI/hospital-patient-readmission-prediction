@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Machine Learning project data and model artifacts
+*.joblib
+*.pkl
+*.pickle
+
+# Raw and processed datasets
+data/
+processed_data/
+
+# Patient-level prediction outputs
+*validation_predictions.csv
+*test_predictions.csv
