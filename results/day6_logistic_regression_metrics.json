@@ -1,0 +1,34 @@
+{
+    "logistic_regression": {
+        "Model": "Logistic Regression",
+        "Accuracy": 0.6540960709297383,
+        "Precision": 0.1765204133491445,
+        "Recall": 0.5551411827384124,
+        "F1_Score": 0.267866323907455,
+        "Balanced_Accuracy": 0.6109838881478217,
+        "ROC_AUC": 0.6595766800083109,
+        "Average_Precision": 0.22348215272377925
+    },
+    "dummy_classifier": {
+        "Model": "Dummy Classifier",
+        "Accuracy": 0.8860144531487217,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1_Score": 0.0,
+        "Balanced_Accuracy": 0.5,
+        "ROC_AUC": 0.5,
+        "Average_Precision": 0.11398554685127832
+    },
+    "confusion_matrix": [
+        [
+            9729,
+            4861
+        ],
+        [
+            835,
+            1042
+        ]
+    ],
+    "threshold": 0.5,
+    "evaluation_dataset": "Validation"
+}
